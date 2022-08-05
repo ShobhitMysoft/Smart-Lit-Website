@@ -23,7 +23,7 @@
 .elementor-1011 .elementor-element.elementor-element-781af84:not(.elementor-motion-effects-element-type-background),
 .elementor-1011 .elementor-element.elementor-element-781af84>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #fff;
-    background-image: url(https://demo2wpopal.b-cdn.net/poco/wp-content/uploads/2020/09/h2_shape.jpg);
+    background-image: url(images/h2_shape.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover
@@ -31,7 +31,7 @@
 
 .elementor-1011 .elementor-element.elementor-element-781af84>.elementor-background-overlay {
     background-color: #fff0;
-    background-image: url(https://demo2wpopal.b-cdn.net/poco/wp-content/uploads/2020/08/h2_ellipse.png);
+    background-image: url(images/h2_ellipse.png);
     background-position: 120.5% -305px;
     background-repeat: no-repeat;
     opacity: 1;
@@ -57,41 +57,46 @@ body.rtl .elementor-1011 .elementor-element.elementor-element-0b74516 {
     left: 0
 }
 
+/* zzz sec1 heading1 */
 .elementor-1011 .elementor-element.elementor-element-643e8e9 .elementor-heading-title {
     color: var(--e-global-color-accent);
-    font-size: 72px;
+    font-size: 52px;
     text-transform: uppercase;
-    line-height: 75px
+    line-height: 25px
 }
 
 .elementor-1011 .elementor-element.elementor-element-643e8e9 {
     z-index: 3
 }
 
+/* zzz sec1 heading desc */
 .elementor-1011 .elementor-element.elementor-element-66ce2b3 .elementor-heading-title {
     color: var(--e-global-color-primary);
-    font-size: 120px;
-    text-transform: uppercase;
+    font-size: 50px;
     line-height: 98px;
     text-shadow: 1px 0 6px #fff
 }
 
+/* zzz sec1 heading2 */
 .elementor-1011 .elementor-element.elementor-element-66ce2b3>.elementor-widget-container {
-    margin: 0 0 25px
+    /* margin: 0 0 25px */
 }
 
 .elementor-1011 .elementor-element.elementor-element-66ce2b3 {
     z-index: 3
 }
 
+/* zzz sec1 heading desc */
 .elementor-1011 .elementor-element.elementor-element-c1ad34b .elementor-heading-title {
-    color: #00a149;
-    font-size: 32px;
-    line-height: 36px
+    color: #616163;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 0px
 }
 
+/* zzz sec1 desc*/
 .elementor-1011 .elementor-element.elementor-element-c1ad34b>.elementor-widget-container {
-    margin: 0 0 15px
+    margin: 0 0 50px
 }
 
 .elementor-1011 .elementor-element.elementor-element-c1ad34b {
@@ -128,7 +133,7 @@ body.rtl .elementor-1011 .elementor-element.elementor-element-0b74516 {
 }
 
 .elementor-1011 .elementor-element.elementor-element-0adb331 .elementor-heading-title {
-    color: #00a149;
+    color: #1E1D23;
     font-size: 40px;
     line-height: 55px
 }
@@ -294,7 +299,7 @@ body.rtl .elementor-1011 .elementor-element.elementor-element-250b07d {
 }
 
 .elementor-1011 .elementor-element.elementor-element-e1c30ec>.elementor-widget-container {
-    margin: 0 0 45px
+    margin: 10px 0 15px
 }
 
 .elementor-1011 .elementor-element.elementor-element-7e55b62:not(.elementor-motion-effects-element-type-background),

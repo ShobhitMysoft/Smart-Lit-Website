@@ -261,7 +261,7 @@ th {
 :root {
     --primary: #ff0000d1;
     --primary_hover: #FF0000;
-    --secondary: #00a149;
+    --secondary: #1E1D23;
     --body: gray;
     --heading: #1e1d23;
     --light: #999;
@@ -2569,8 +2569,10 @@ ul.menu li.current-menu-item>a {
     margin-left: 1.41575em
 }
 
+/* zzz Menu item nav navigation */
 .main-navigation ul.menu li.menu-item>a {
-    padding: 1em;
+    text-align: center;
+    padding: 1em 0.8em;
     display: block;
     font-weight: 700;
     font-size: 16px
@@ -6413,7 +6415,7 @@ body.poco-layout-boxed {
 }
 
 .poco-icon-mobile-android-alt:before {
-    content: ""
+    /* content: "" */
 }
 
 .poco-icon-money-bill:before {

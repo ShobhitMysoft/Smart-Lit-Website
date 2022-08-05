@@ -111,7 +111,7 @@ body:not(.rtl) .elementor-2022 .elementor-element.elementor-element-08c9e1d .ele
 }
 
 .elementor-2022 .elementor-element.elementor-element-c607fef>.elementor-container {
-    min-height: 120px
+    min-height: 90px
 }
 
 .elementor-2022 .elementor-element.elementor-element-c607fef>.elementor-container:after {
@@ -285,11 +285,12 @@ body:not(.rtl) .elementor-2022 .elementor-element.elementor-element-08c9e1d .ele
     font-weight: 500
 }
 
+/* zzz Menu item mobile number */
 .elementor-2022 .elementor-element.elementor-element-ad5e1db .elementor-icon-box-content .elementor-icon-box-description {
-    color: #1E1D23;
+    color: var(--e-global-color-primary);
     font-size: 16px;
-    font-weight: 700;
-    line-height: 1em
+    font-weight: 200;
+    line-height: 1.3em
 }
 
 .elementor-2022 .elementor-element.elementor-element-ad5e1db>.elementor-widget-container {

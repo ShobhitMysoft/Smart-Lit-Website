@@ -866,7 +866,8 @@ h1.entry-title {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width:1024px) {
@@ -900,7 +901,7 @@ h1.entry-title {
 }
 
 .elementor-widget:not(:last-child) {
-    margin-bottom: 20px
+    /* margin-bottom: 20px */
 }
 
 .elementor-widget:not(:last-child).elementor-absolute,
@@ -993,7 +994,7 @@ h1.entry-title {
 
     .elementor-column.elementor-col-33,
     .elementor-column[data-col="33"] {
-        width: 33.333%
+        /* width: 33.333% */
     }
 
     .elementor-column.elementor-col-40,
@@ -2699,8 +2700,8 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 
 .elementor-icon i,
 .elementor-icon svg {
-    width: 0.8em;
-    height: 1em;
+    width: 0.7em;
+    height: 0.7em;
     position: relative;
     display: block
 }
@@ -2743,7 +2744,8 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-wrapper {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex
+        display: flex;
+        align-items: center;
     }
 
     .elementor-widget-icon-box.elementor-position-left .elementor-icon-box-icon,
@@ -2777,9 +2779,9 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     }
 
     .elementor-widget-icon-box.elementor-vertical-align-top .elementor-icon-box-wrapper {
-        -webkit-box-align: start;
+        /* -webkit-box-align: start;
         -ms-flex-align: start;
-        align-items: flex-start
+        align-items: flex-start */
     }
 
     .elementor-widget-icon-box.elementor-vertical-align-middle .elementor-icon-box-wrapper {
@@ -2811,10 +2813,14 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     color: inherit
 }
 
+/* zzz Menu item number div */
 .elementor-widget-icon-box .elementor-icon-box-content {
-    -webkit-box-flex: 1;
+    /* -webkit-box-flex: 1;
     -ms-flex-positive: 1;
-    flex-grow: 1
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 20px; */
+    padding: 0 12px;
 }
 
 .elementor-widget-icon-box .elementor-icon-box-description {
